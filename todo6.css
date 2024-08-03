@@ -3,48 +3,43 @@
 .todos-bg-container {
     background-color: #f9fbfe;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .todos-heading {
     text-align: center;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 46px;
     font-weight: 500;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.create-task-heading {
-    font-family: "Roboto";
+.create-task-heading, .todo-items-heading {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
     font-size: 32px;
     font-weight: 700;
 }
 
-.create-task-heading-subpart {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 500;
-}
-
-.todo-items-heading {
-    font-family: "Roboto";
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.todo-items-heading-subpart {
-    font-family: "Roboto";
+.create-task-heading-subpart, .todo-items-heading-subpart {
+    font-family: "Roboto", sans-serif;
     font-size: 32px;
     font-weight: 500;
 }
 
 .todo-items-container {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 .todo-item-container {
     margin-top: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .todo-user-input {
@@ -61,16 +56,14 @@
 .button {
     color: white;
     background-color: #4c63b6;
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 18px;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 4px;
     margin-top: 20px;
     margin-bottom: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
 }
 
 .label-container {
@@ -93,15 +86,12 @@
 }
 
 .checkbox-label {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     width: 82%;
-    margin: 0px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0;
+    padding: 10px 20px;
     border-radius: 5px;
 }
 
